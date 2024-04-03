@@ -1,0 +1,13 @@
+import tkinter
+window =tkinter.Tk()
+window.title("Frame - 132")
+window.state('zoom')
+frame1 = tkinter.Frame(window)
+frame2 = tkinter.Frame(window)
+b1 = tkinter.Button(frame1,text='Om')
+b2 = tkinter.Button(frame2,text='Solanki')
+frame1.pack(side='left',padx=10,pady=10)
+frame2.pack(side='right',padx=10,pady=10)
+b1.pack()
+b2.pack()
+window.mainloop()
